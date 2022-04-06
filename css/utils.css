@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+/*font-family: 'Quicksand', sans-serif; */
+
+
+/* we can make css variables and use them*/
+:root {
+    --main-bg-color: brown;
+    --font1: font-family:'Quicksand', sans-serif;;
+    --font2:'Roboto', sans-serif;
+}
+
+.center{
+    text-align: center;
+}
+
+.font1{
+font-family:var(--font1);
+
+}
+.font2{
+    font-family:var(--font2);
+}
+.max-width-1{
+max-width: 80vw;
+}
+.max-width-2{
+    max-width: 60vw;
+}
+
+/* margin-auto which will align items to center */
+.m-auto{
+margin:auto;
+}
+
+.btn{
+padding: 0px 20px;
+padding-top: 3px;
+border: 2px solid black;
+border-radius: 10px;
+font-family: var(--font1);
+font-size: 16px;
+cursor: pointer;
+transition: all 0.3s ease-in-out;
+}
+
+.btn:hover{
+    color:white;
+    background: var(--main-bg-color);
+}
+.form-input{
+padding:0px 5px;
+padding-top: 3px;
+font-size: 16px;
+border:2px solid black;
+border-radius: 5px;
+margin:0 13px;
+/* we put margin from left-right here becoz we want our search bar to be at some distance from button */
+font-family: var(--font1);
+}

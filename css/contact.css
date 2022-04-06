@@ -1,0 +1,32 @@
+.contact-content {
+  background-color: rgb(163, 202, 218);
+  height: 70vh;
+}
+
+.form-box input,
+textarea {
+  width: 52vw;
+  padding: 10px 6px;
+  margin: 15px;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 18px;
+  font-family: var(--font1);
+}
+
+.btn1 {
+  margin: 15px;
+  padding: 0px 20px;
+  padding-top: 3px;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-family: var(--font1);
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn1:hover{
+    color:white;
+    background: var(--main-bg-color);
+}
